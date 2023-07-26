@@ -1,20 +1,13 @@
-.page-footer{
-    display: flex;
-    align-content: center;
-    font-family: "Josefin Sans", sans-serif;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+.pieDePagina{
+  display: flex;
+  background-color: red;
+  align-content: center;
+  font-family: "Josefin Sans", sans-serif;
   }
   
   .footer-copyright {
     background: linear-gradient(rgb(0, 255, 0), rgb(2, 2, 2));
     font-size: medium;
     font-family: sans-serif;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
   }
   
