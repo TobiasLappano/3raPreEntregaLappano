@@ -5,16 +5,15 @@
     }
     
     .columna1 {
-      flex: 25%;
-      max-width: 25%;
-      padding: 04px;
+      flex:50%;
+      width: auto;
+      padding: 0 4px;
+      text-align: center;
     }
     
     
     .columna1 video {
-      margin-top: 8px;
-      vertical-align: middle;
-      width: 100%;
-      margin-left: 20em;
-      margin-right: 20em;
+      margin-top: 50px;
+      width: 70%;
+      height: 10%;
     }

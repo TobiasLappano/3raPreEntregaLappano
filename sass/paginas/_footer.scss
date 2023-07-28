@@ -1,6 +1,5 @@
 .pieDePagina{
   display: flex;
-  background-color: red;
   align-content: center;
   font-family: "Josefin Sans", sans-serif;
   }
@@ -9,5 +8,6 @@
     background: linear-gradient(rgb(0, 255, 0), rgb(2, 2, 2));
     font-size: medium;
     font-family: sans-serif;
+    text-shadow: 1px 1px 1px rgb(12, 12, 12);
   }
   

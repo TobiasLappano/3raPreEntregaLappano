@@ -22,8 +22,15 @@
   background-color: rgba(18, 18, 18, 0.0549019608);
   font-size: x-large;
   color: white;
+  text-align: center;
 }
 
+@media only screen and (max-width: 660px) {
+  .social {
+    text-align: center;
+    font-size: small;
+  }
+}
 /*body*/
 body {
   background-color: #121212;
@@ -32,19 +39,29 @@ body {
 .nosotros {
   font-size: xx-large;
   color: white;
+  text-align: center;
 }
 
 .MENU {
-  font-size: xx-large;
+  font-size: x-large;
   color: white;
+  text-align: center;
 }
 
-.container {
-  margin-left: 10rem;
-  justify-content: space-around;
-  margin-right: 3rem;
+@media screen and (max-width: 601px) {
+  .nosotros {
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  .MENU {
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 1rem;
+  }
 }
-
 .row2 {
   display: flex;
   flex-wrap: wrap;
@@ -52,38 +69,33 @@ body {
 }
 
 .columna1 {
-  flex: 25%;
-  max-width: 25%;
-  padding: 4px;
+  flex: 50%;
+  width: auto;
+  padding: 0 4px;
+  text-align: center;
 }
 
 .columna1 video {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  margin-left: 20em;
-  margin-right: 20em;
+  margin-top: 50px;
+  width: 70%;
+  height: 10%;
 }
 
 /*memes normales*/
 .row1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
 }
 
 .column1 {
   flex: 25%;
-  max-width: 25%;
-  padding: 4px;
+  padding: 0 4px;
 }
 
 .column1 img {
-  margin-top: 8px;
+  margin-top: 50px;
   vertical-align: middle;
   width: 100%;
-  margin-left: 20em;
-  margin-right: 5em;
 }
 
 /*nosotros*/
@@ -178,7 +190,6 @@ body {
 }
 .pieDePagina {
   display: flex;
-  background-color: red;
   align-content: center;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -187,15 +198,19 @@ body {
   background: linear-gradient(rgb(0, 255, 0), rgb(2, 2, 2));
   font-size: medium;
   font-family: sans-serif;
+  text-shadow: 1px 1px 1px rgb(12, 12, 12);
+}
+
+@media only screen and (max-width: 767px) {
+  body h1 {
+    font-size: 1.2rem;
+    font-family: "Courier New", Courier, monospace;
+  }
 }
 
 .nav-link {
   text-decoration: none;
-  background-color: rgb(0, 255, 0);
-  transition: transform 1s;
-}
-.nav-link .nav-link:hover {
-  transform: rotate(360deg);
+  text-shadow: 1px 1px 1px rgb(12, 12, 12);
 }
 
 .logo {
@@ -206,5 +221,5 @@ body {
 }
 
 .container-fluid {
-  background-color: rgb(0, 255, 0);
+  background: linear-gradient(rgb(0, 255, 0), rgba(2, 2, 2, 0.749));
 }/*# sourceMappingURL=main.css.map */
